@@ -1,0 +1,8 @@
+pandas
+streamlit
+scikit-learn
+anthropic
+PyPDF2
+os
+tempfile
+google-generativeai
