@@ -1,6 +1,11 @@
-pandas
-streamlit
-scikit-learn
-anthropic
-PyPDF2
-google-generativeai
+anthropic==0.25.7
+fastapi==0.110.3
+numpy==1.25.2
+pandas==2.2.2
+protobuf==5.26.1
+pydantic==2.7.1
+PyPDF2==3.0.1
+python-dotenv==1.0.1
+scikit_learn==1.4.2
+streamlit==1.27.2
+
