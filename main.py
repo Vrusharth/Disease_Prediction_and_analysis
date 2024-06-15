@@ -47,7 +47,7 @@ def diabetes(file):
 
     app= FastAPI()
 
-    API_KEY = 'AIzaSyBMyahqmUveOUsRpGgcAI9ErYOETz8i-oM'
+    API_KEY = 'AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U'
 
     genai.configure(
     api_key = API_KEY
@@ -200,7 +200,7 @@ def liver(file):
 
     app= FastAPI()
 
-    API_KEY = 'AIzaSyBMyahqmUveOUsRpGgcAI9ErYOETz8i-oM'
+    API_KEY = 'AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U'
 
     genai.configure(
     api_key = API_KEY
@@ -308,7 +308,7 @@ def heart(file):
 
     app= FastAPI()
 
-    API_KEY = 'AIzaSyBMyahqmUveOUsRpGgcAI9ErYOETz8i-oM'
+    API_KEY = 'AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U'
 
     genai.configure(
     api_key = API_KEY
@@ -380,7 +380,7 @@ def lung(file):
     import google.generativeai as genai
     from dotenv import load_dotenv
     app= FastAPI()
-    API_KEY = 'AIzaSyBMyahqmUveOUsRpGgcAI9ErYOETz8i-oM'
+    API_KEY = 'AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U'
     genai.configure(
     api_key = API_KEY
     )
@@ -488,7 +488,7 @@ def kidney(file):
 
     app= FastAPI()
 
-    API_KEY = 'AIzaSyBMyahqmUveOUsRpGgcAI9ErYOETz8i-oM'
+    API_KEY = 'AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U'
 
     genai.configure(
     api_key = API_KEY
