@@ -47,7 +47,7 @@ def diabetes(file):
 
     app= FastAPI()
 
-    API_KEY = 'AIzaSyBU1BhybBEaYGRKM45KWvomihSXgYvV22U'
+    API_KEY = 'AIzaSyBrX0GtL5TqwCaVKQEldpQnlH2DVdFVX4I'
 
     genai.configure(
     api_key = API_KEY
