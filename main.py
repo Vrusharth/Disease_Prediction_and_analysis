@@ -45,6 +45,13 @@ def diabetes(file):
 
     from dotenv import load_dotenv
 
+
+
+
+  
+
+    
+    
     app= FastAPI()
 
     API_KEY = 'AIzaSyBrX0GtL5TqwCaVKQEldpQnlH2DVdFVX4I'
@@ -53,11 +60,11 @@ def diabetes(file):
     api_key = API_KEY
     )
 
-    model= genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel(model_name="models/gemini-pro")
     chat=model.start_chat(history=[])
 
 
-    response=chat.send_message(prompt + pdftext[0])
+    response = model.generate_content(prompt + pdftext[0])  # Correct method for single response
     # st.write(response.text)
     
     p = response.text
